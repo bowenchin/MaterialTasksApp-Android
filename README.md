@@ -17,10 +17,10 @@ To start developing in Android Studio, group all of the files into one folder. T
 * Inspired by Ravi Tamada's article at [AndroidHive](http://www.androidhive.info/2015/04/android-getting-started-with-material-design/)
 * Inspired by [Antonio Leiva](http://antonioleiva.com/material-design-everywhere/) on using AppCompat21
 
-#Dependencies
+#Imported Dependencies
 --------------
-* [!TextDrawable](https://github.com/amulyakhare/TextDrawable) by amulyakhare
-* [!android-swipe-to-dismiss-undo](https://github.com/hudomju/android-swipe-to-dismiss-undo) by hudomju
+* [TextDrawable](https://github.com/amulyakhare/TextDrawable) by amulyakhare
+* [android-swipe-to-dismiss-undo](https://github.com/hudomju/android-swipe-to-dismiss-undo) by hudomju
 
 #Copyright
 --------------
