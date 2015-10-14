@@ -1,0 +1,158 @@
+<FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/themedCardBackgroundColor"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:cropToPadding="true"
+            android:background="@drawable/style_imagery_bestpractices_focus1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:elevation="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+
+        <!--<EditText
+            android:id="@+id/task_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/enter_task_title"
+            android:elevation="6dp"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:background="?attr/themedColorAccent"
+            android:paddingLeft="16dp"
+            android:textCursorDrawable="@drawable/color_cursor"
+
+            android:layout_alignBottom="@+id/header"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />-->
+
+        <EditText
+            android:id="@+id/task_title"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="@string/enter_task_title"
+            android:elevation="6dp"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:paddingLeft="16dp"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:layout_marginBottom="43dp"
+            android:layout_alignBottom="@+id/header"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton android:id="@+id/task_imageButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_camera_alt_black_24dp"
+            android:elevation="6dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/task_subject"
+            android:layout_alignEnd="@+id/task_subject"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/task_subject"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:hint="@string/enter_task_details"
+            android:textColor="?attr/themedTextColorPrimary"
+            android:background="?attr/themedTextColorSecondaryLight"
+            android:textSize="16sp"
+            android:elevation="3dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/done_edit"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/task_date"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/themedColorPrimaryLight"
+            android:bottomRightRadius="2dp"
+            android:bottomLeftRadius="2dp"
+            android:topLeftRadius="2dp"
+            android:topRightRadius="2dp"
+            android:textColor="?attr/themedTextColorSecondary"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/done_edit"
+            android:layout_alignEnd="@+id/done_edit"
+            android:layout_toRightOf="@+id/iconEvent"
+            android:layout_toEndOf="@+id/iconEvent"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/date_picker_title"
+            android:id="@+id/textView2"
+            android:textColor="?attr/themedTextColorSecondary"
+            android:layout_below="@+id/task_subject"
+            android:layout_alignLeft="@+id/task_subject"
+            android:layout_alignStart="@+id/task_subject"
+            android:layout_marginBottom="5dp"
+             />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_event_black_24dp"
+            android:id="@+id/iconEvent"
+            android:elevation="2dp"
+            android:layout_alignTop="@+id/task_date"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignBottom="@+id/task_date"
+            android:layout_alignRight="@+id/iconSubject"
+            android:layout_alignEnd="@+id/iconSubject" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_subject_black_24dp"
+            android:id="@+id/iconSubject"
+            android:elevation="5dp"
+            android:layout_above="@+id/task_subject"
+            android:layout_alignLeft="@+id/task_subject"
+            android:layout_alignStart="@+id/task_subject"
+            android:layout_marginBottom="-12dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/done_edit"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:src="@drawable/ic_save_white_24dp"
+            app:borderWidth="0dp"
+            android:layout_alignRight="@+id/task_title"
+            android:layout_alignEnd="@+id/task_title"
+            android:layout_marginTop="170dp"
+            android:layout_marginRight="16dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:background="?attr/themedColorPrimary" >
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/ic_format_list_bulleted_white_36dp"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

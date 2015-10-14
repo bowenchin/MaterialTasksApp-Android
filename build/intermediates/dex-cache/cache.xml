@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/exploded-aar/com.hudomju/swipe-to-dismiss-undo/1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c934830482473cb298c02f9eb55da67548b9db40">
+        <dex dex="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/pre-dexed/debug/classes-16509f70fa6cd581fe4f1e76f2fe35ad0631e189.jar" />
+    </item>
+    <item
+        jar="/Users/bowenchin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-6a6500b5b21c2c8d5eb5f934d0fcca740455d457.jar" />
+    </item>
+    <item
+        jar="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/pre-dexed/debug/classes-af6825818de5f693fe67dc492c37d49aa615f5e9.jar" />
+    </item>
+    <item
+        jar="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-b5ecdd0088a6c5dc5d0a9089633d54bd253bbfe6.jar" />
+    </item>
+    <item
+        jar="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/exploded-aar/com.wdullaer/materialdatetimepicker/1.4.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="10f66556026320088327e814108d0a8e80111130">
+        <dex dex="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/pre-dexed/debug/classes-11cf0be2eef5578bc164a6b2b74d9dff08a2c98b.jar" />
+    </item>
+    <item
+        jar="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/exploded-aar/com.amulyakhare/com.amulyakhare.textdrawable/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/pre-dexed/debug/classes-4ad0c34fe09ede526344f52e3b57af446140c23d.jar" />
+    </item>
+    <item
+        jar="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/pre-dexed/debug/classes-67b0159c96b39ca352f1fc687bc8f7a063e24d3d.jar" />
+    </item>
+    <item
+        jar="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/pre-dexed/debug/classes-b1eeadc1a9cf8e8f1b5e65ae0acad3904af9f7b4.jar" />
+    </item>
+    <item
+        jar="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/pre-dexed/debug/classes-6b051314493ac9a9c357db7e418f9fe7d17e318e.jar" />
+    </item>
+    <item
+        jar="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/bowenchin/AndroidStudioProjects/MaterialTasks/app/build/intermediates/pre-dexed/debug/classes-670a4b8024aa6180d6b3e0abc165fe1af959e4b4.jar" />
+    </item>
+
+</items>

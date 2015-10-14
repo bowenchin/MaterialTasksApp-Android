@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bowenchin.android.materialtasks" >
+    <uses-sdk android:minSdkVersion="15"
+        android:targetSdkVersion="23"
+        android:maxSdkVersion="23" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true"
+        android:resizeable="true"   />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+
+        <activity
+            android:name="com.bowenchin.android.materialtasks.activity.TaskListActivity">
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bowenchin.android.materialtasks.activity.TaskView"
+            android:label="@string/title_add"
+            android:parentActivityName="com.bowenchin.android.materialtasks.activity.TaskListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bowenchin.android.materialtasks.activity.TaskListActivity"/>
+        </activity>
+        <activity
+            android:name="com.bowenchin.android.materialtasks.activity.WalkThroughActivity"
+            android:label="@string/title_add"
+            android:parentActivityName="com.bowenchin.android.materialtasks.activity.TaskListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bowenchin.android.materialtasks.activity.TaskListActivity"/>
+        </activity>
+        <activity
+            android:name="com.bowenchin.android.materialtasks.activity.SettingsActivity"
+            android:label="@string/title_settings"
+            android:parentActivityName="com.bowenchin.android.materialtasks.activity.TaskListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bowenchin.android.materialtasks.activity.TaskListActivity"/>
+        </activity>
+        <activity
+            android:name="com.bowenchin.android.materialtasks.activity.TaskCameraActivity"
+            android:screenOrientation="userLandscape"
+            android:label="@string/app_name"/>
+        <service android:name="com.bowenchin.android.materialtasks.notification.ScheduleService" />
+        <service android:name="com.bowenchin.android.materialtasks.notification.NotifyService" />
+    </application>
+</manifest>

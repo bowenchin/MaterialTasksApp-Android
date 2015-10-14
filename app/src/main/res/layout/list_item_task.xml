@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:background="@drawable/background_activated"
+    android:drawSelectorOnTop="true"
+    >
+
+    <!--<CheckBox
+        android:id="@+id/task_list_item_solvedCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:enabled="false"
+        android:focusable="false"
+        android:padding="2dp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+
+
+    <TextView
+        android:id="@+id/task_list_item_titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="4dp"
+        android:paddingTop="16dp"
+        android:text="Task title"
+        android:textColor="?attr/themedTextColorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/task_list_item_subjectTextView"
+        android:layout_alignStart="@+id/task_list_item_subjectTextView" />
+    <ImageView
+        android:id="@+id/toDoListItemColorImageView"
+        android:gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="2dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="3dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/task_list_item_subjectTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task_list_item_titleTextView"
+        android:layout_toRightOf="@id/toDoListItemColorImageView"
+        android:textSize="14sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="4dp"
+        android:text="Task details"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp"
+        android:textColor="?attr/themedTextColorSecondary"
+        />
+
+    <TextView
+        android:id="@+id/task_list_item_dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task_list_item_subjectTextView"
+        android:layout_toRightOf="@id/toDoListItemColorImageView"
+        android:textSize="14sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="4dp"
+        android:text="Task date"
+        android:paddingBottom="10dp"
+        android:paddingTop="1dp"
+        android:textColor="@color/orange200"
+        />
+        <!--android:textColor="?attr/themedTextColorSecondary"-->
+
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?attr/themedColorPrimaryLight"
+        android:layout_alignBottom="@id/task_list_item_dateTextView"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="3"
+        android:height="88dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_delete"
+            android:gravity="center_vertical"
+            android:text="@string/delete_task"
+            android:clickable="false"
+            android:layout_weight="2"
+            android:hapticFeedbackEnabled="true"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/txt_undo"
+            android:text="Undo"
+            android:clickable="false"
+            android:layout_weight="1"
+            android:textColor="@color/orange200"/>
+
+    </LinearLayout>
+</RelativeLayout>

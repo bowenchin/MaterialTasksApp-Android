@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Tasks</string>
+    <string name="action_settings">Postavke</string>
+    <string name="action_search">Traži</string>
+    <string name="add_a_task">Dodaj Zadatak</string>
+    <string name="date_picker_title">Postavi datum završetka:</string>
+    <string name="delete_photo">Obriši sliku</string>
+    <string name="delete_task">Obriši zadatak</string>
+    <string name="drawer_close">Zatvori</string>
+    <string name="drawer_open">Otvori</string>
+    <string name="enter_task_details">Unesi detalje o zadatku</string>
+    <string name="nav_item_addtask">Dodaj zadatak</string>
+    <string name="enter_task_title">Unesi naziv zadatka</string>
+    <string name="nav_item_home">Polazno</string>
+    <string name="nav_item_settings">Postavke</string>
+    <string name="nav_item_todo">Popis Zadataka</string>
+    <string name="notification_alert">Podsjetnik: Neki zadaci zahtijevaju vašu pažnju!</string>
+    <string name="pref_category_application">Aplikacija</string>
+    <string name="pref_category_other">Ostalo</string>
+    <string name="pref_theme_title">Tema</string>
+    <string name="pref_theme_value_dark">Tamna</string>
+    <string name="pref_theme_value_light">Svijetla</string>
+    <string name="task_checked_label">Obavljeno?</string>
+    <string name="task_details_label">Detalji</string>
+    <string name="task_title">Unesi Zadatak</string>
+    <string name="task_title_label">Naziv zadatka</string>
+    <string name="title_add">Dodaj/Uredi Zadatak</string>
+    <string name="title_instructions">Upute</string>
+    <string name="title_settings">Postavke</string>
+    <string name="title_help">Pomoć / Podrška</string>
+</resources>

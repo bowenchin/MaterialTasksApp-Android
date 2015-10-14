@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Tasks</string>
+    <string name="action_search">ค้นหา </string>
+    <string name="action_settings">การตั้งค่า </string>
+    <string name="add_a_task">เพิ่มงาน</string>
+    <string name="date_picker_title">ตั้งแล้วเสร็จวันที่: </string>
+    <string name="delete_photo">ลบภาพ</string>
+    <string name="delete_task">ลบงาน</string>
+    <string name="drawer_close">ปิด</string>
+    <string name="drawer_open">เปิด</string>
+    <string name="enter_task_details">ใส่รายละเอียดของงาน </string>
+    <string name="enter_task_title">ป้อนชื่องาน</string>
+    <string name="nav_item_addtask">เพิ่มงาน</string>
+    <string name="nav_item_home">หน้าแรก </string>
+    <string name="nav_item_settings">การตั้งค่า</string>
+    <string name="nav_item_todo">สิ่งที่ต้องทำ</string>
+    <string name="notification_alert">คำเตือน: งานบางส่วนต้องให้ความสนใจของคุณ! </string>
+    <string name="pref_category_application">App</string>
+    <string name="pref_category_other">อื่น ๆ </string>
+    <string name="pref_theme_title">กระทู้ </string>
+    <string name="pref_theme_value_dark">มืด</string>
+    <string name="pref_theme_value_light">แสง</string>
+    <string name="task_checked_label">ที่เสร็จสมบูรณ์? </string>
+    <string name="task_details_label">รายละเอียด </string>
+    <string name="task_title">ป้อนงาน</string>
+    <string name="task_title_label">ชื่องาน</string>
+    <string name="title_add">เพิ่ม / แก้ไขงาน </string>
+    <string name="title_instructions">คำแนะนำ </string>
+    <string name="title_settings">การตั้งค่า</string>
+    <string name="title_help">ช่วยเหลือ / สนับสนุน</string>
+</resources>

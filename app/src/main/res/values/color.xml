@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#ffafafaf</color>
+
+    <!-- text color: white -->
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColorSecondary">#ff4b4b4b</color>
+    <color name="textColorSecondaryLight">#ffcdcdcd</color>
+    <color name="textColorSecondaryLightInverse">#ff696969</color>
+    <color name="textColorBlack">#000000</color>
+
+    <!-- inverse text color: 87% black -->
+    <color name="textColorPrimaryInverse">#ffffff</color>
+    <color name="textColorSecondaryInverse">#ffb4b4b4</color>
+
+    <color name="darkDrawer">#ff373737</color>
+
+
+    <!-- alternative color palette -->
+    <color name="colorPrimaryInverse">#303F9F</color>
+    <color name="colorPrimaryDarkInverse">#1A237E</color>
+    <color name="colorPrimaryLightInverse">#ff696a83</color>
+    <color name="colorAccentInverse">#D81B60</color>
+
+    <color name="orange200">#FFAB40</color>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Tasks</string>
+    <string name="action_search">खोज</string>
+    <string name="action_settings">सेटिंग </string>
+    <string name="add_a_task">एक एक कार्य जोड़ें</string>
+    <string name="date_picker_title">एक पूरा होने की तारीख तय करें: </string>
+    <string name="delete_photo">फोटो हटाएं </string>
+    <string name="delete_task">कार्य हटाएं </string>
+    <string name="drawer_close">बंद करे </string>
+    <string name="drawer_open">खुला है </string>
+    <string name="enter_task_details">कार्य विवरण दर्ज करें </string>
+    <string name="enter_task_title">कार्य शीर्षक दर्ज करें </string>
+    <string name="nav_item_addtask">कार्य जोड़ें </string>
+    <string name="nav_item_home">होम पेज </string>
+    <string name="nav_item_settings">सेटिंग</string>
+    <string name="nav_item_todo">करने के लिए सूची </string>
+    <string name="notification_alert">अनुस्मारक: कुछ काम के लिए अपने ध्यान की आवश्यकता है! </string>
+    <string name="pref_category_application">आवेदन </string>
+    <string name="pref_category_other">अन्य</string>
+    <string name="pref_theme_title">विषय</string>
+    <string name="pref_theme_value_dark">अंधेरा</string>
+    <string name="pref_theme_value_light">प्रकाश</string>
+    <string name="task_checked_label">पूरा?</string>
+    <string name="task_details_label">विवरण</string>
+    <string name="task_title">कार्य दर्ज</string>
+    <string name="task_title_label">टास्क शीर्षक</string>
+    <string name="title_add">जोड़ें / संपादित टास्क</string>
+    <string name="title_instructions">निर्देश</string>
+    <string name="title_settings">सेटिंग</string>
+    <string name="title_help">मदद समर्थन</string>
+</resources>

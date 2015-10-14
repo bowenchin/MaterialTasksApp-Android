@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Tasks</string>
+    <string name="delete_photo">Menghapus foto </string>
+    <string name="action_search">Pencarian</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="add_a_task">Tambahkan tugas </string>
+    <string name="date_picker_title">Menetapkan tanggal penyelesaian: </string>
+    <string name="delete_task">Hapus tugas </string>
+    <string name="drawer_close">Dekat</string>
+    <string name="drawer_open">Terbuka</string>
+    <string name="enter_task_details">Masukkan rincian tugas </string>
+    <string name="enter_task_title">Masukkan judul tugas </string>
+    <string name="nav_item_addtask">Tambahkan tugas </string>
+    <string name="nav_item_home">Halaman</string>
+    <string name="nav_item_settings">Pengaturan</string>
+    <string name="nav_item_todo">Daftar tugas </string>
+    <string name="notification_alert">Reminder: Beberapa tugas membutuhkan perhatian Anda! </string>
+    <string name="pref_category_application">App</string>
+    <string name="pref_category_other">Lain</string>
+    <string name="pref_theme_title">Tema</string>
+    <string name="pref_theme_value_dark">Gelap</string>
+    <string name="pref_theme_value_light">Cahaya</string>
+    <string name="task_checked_label">Selesai?</string>
+    <string name="task_details_label">Detail</string>
+    <string name="task_title">Masukkan tugas</string>
+    <string name="task_title_label">Judul tugas</string>
+    <string name="title_add">Tambah / Edit Tugas </string>
+    <string name="title_instructions">Instruksi</string>
+    <string name="title_settings">Pengaturan</string>
+    <string name="title_help">Bantuan / Dukungan</string>
+</resources>

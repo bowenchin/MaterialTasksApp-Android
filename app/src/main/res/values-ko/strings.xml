@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Tasks</string>
+    <string name="delete_photo">사진 삭제 </string>
+    <string name="delete_task">작업 삭제 </string>
+    <string name="drawer_close">닫기 </string>
+    <string name="action_search">수색</string>
+    <string name="action_settings">설정</string>
+    <string name="add_a_task">작업 추가 </string>
+    <string name="date_picker_title">완료 날짜를 설정합니다 : </string>
+    <string name="drawer_open">열린 </string>
+    <string name="enter_task_details">작업의 세부 정보를 입력 </string>
+    <string name="enter_task_title">작업 제목을 입력 </string>
+    <string name="nav_item_addtask">작업 추가 </string>
+    <string name="nav_item_home">홈 페이지 </string>
+    <string name="nav_item_settings">설정</string>
+    <string name="nav_item_todo">할 일 목록 </string>
+    <string name="notification_alert">알림 : 일부 작업이 사용자의주의가 필요합니다! </string>
+    <string name="pref_category_application">응용 프로그램</string>
+    <string name="pref_category_other">다른</string>
+    <string name="pref_theme_title">테마</string>
+    <string name="pref_theme_value_dark">어두운</string>
+    <string name="pref_theme_value_light">빛</string>
+    <string name="task_checked_label">완료? </string>
+    <string name="task_details_label">세부</string>
+    <string name="task_title">작업을 입력 작업을 입력</string>
+    <string name="task_title_label">작업 제목 </string>
+    <string name="title_add">추가 / 편집 작업 </string>
+    <string name="title_instructions">명령</string>
+    <string name="title_settings">설정</string>
+    <string name="title_help">도움말 / 지원</string>
+</resources>

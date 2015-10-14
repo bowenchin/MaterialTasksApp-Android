@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Tasks</string>
+    <string name="action_search">Pesquisa</string>
+    <string name="action_settings">Definições</string>
+    <string name="add_a_task">Adicionar uma tarefa </string>
+    <string name="date_picker_title">Definir uma data de conclusão: </string>
+    <string name="delete_photo">Deletar foto </string>
+    <string name="delete_task">Excluir tarefa </string>
+    <string name="drawer_close">Fechar</string>
+    <string name="drawer_open">Aberto </string>
+    <string name="enter_task_details">Digite os detalhes da tarefa </string>
+    <string name="enter_task_title">Digite o título da tarefa </string>
+    <string name="nav_item_addtask">Adicionar tarefa </string>
+    <string name="nav_item_home">Pagina Inicial </string>
+    <string name="nav_item_settings">Definições</string>
+    <string name="nav_item_todo">Lista de afazeres </string>
+    <string name="notification_alert">Lembrete: Alguns tarefa requer sua atenção! </string>
+    <string name="pref_category_application">App</string>
+    <string name="pref_category_other">De Outros </string>
+    <string name="pref_theme_title">Tema</string>
+    <string name="pref_theme_value_dark">Escuro</string>
+    <string name="pref_theme_value_light">Luz</string>
+    <string name="task_checked_label">Concluído? </string>
+    <string name="task_details_label">Detalhes</string>
+    <string name="task_title">Digite tarefa </string>
+    <string name="task_title_label">Título da tarefa </string>
+    <string name="title_add">Adicionar / Editar Tarefa </string>
+    <string name="title_instructions">Instruções</string>
+    <string name="title_settings">Definições</string>
+    <string name="title_help">Ajuda / Support</string>
+</resources>

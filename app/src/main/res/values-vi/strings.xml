@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Tasks</string>
+    <string name="delete_photo">Xóa ảnh </string>
+    <string name="delete_task">Xóa nhiệm vụ  đặt</string>
+    <string name="drawer_close">Gần</string>
+    <string name="action_search">Tìm kiếm </string>
+    <string name="action_settings">Cài đặt </string>
+    <string name="add_a_task">Thêm một nhiệm vụ </string>
+    <string name="date_picker_title">Đặt một ngày hoàn thành: </string>
+    <string name="drawer_open">Mở </string>
+    <string name="enter_task_details">Nhập chi tiết nhiệm vụ </string>
+    <string name="enter_task_title">Nhập tiêu đề công việc </string>
+    <string name="nav_item_addtask">Thêm công việc </string>
+    <string name="nav_item_home">Trang chủ </string>
+    <string name="nav_item_settings">Cài đặt </string>
+    <string name="nav_item_todo">Những việc cần làm </string>
+    <string name="notification_alert">Nhắc nhở: Một số nhiệm vụ đòi hỏi sự chú ý của bạn! </string>
+    <string name="pref_category_application">App</string>
+    <string name="pref_category_other">Khác</string>
+    <string name="pref_theme_title">Chủ đề </string>
+    <string name="pref_theme_value_dark">Tối </string>
+    <string name="pref_theme_value_light">Ánh sáng </string>
+    <string name="task_checked_label">Hoàn thành? </string>
+    <string name="task_details_label">Chi tiết </string>
+    <string name="task_title">Nhập nhiệm vụ </string>
+    <string name="task_title_label">Công tác tiêu đề </string>
+    <string name="title_add">Thêm / Sửa Nhiệm vụ </string>
+    <string name="title_instructions">Hướng dẫn </string>
+    <string name="title_settings">Cài đặt </string>
+    <string name="title_help">Trợ giúp / Hỗ trợ</string>
+</resources>

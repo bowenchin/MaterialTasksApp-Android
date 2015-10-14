@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Tasks</string>
+    <string name="action_search">ស្វែងរក </string>
+    <string name="action_settings">ការកំណត់</string>
+    <string name="add_a_task">បន្ថែមភារកិច្ច</string>
+    <string name="date_picker_title">កំណត់កាលបរិច្ឆេទបញ្ចប់: </string>
+    <string name="delete_photo">លុបរូបថត</string>
+    <string name="delete_task">លុបភារកិច្ច</string>
+    <string name="drawer_close">បិទការ</string>
+    <string name="drawer_open">បើកទូលាយ</string>
+    <string name="enter_task_details">បញ្ចូលពត៌មានលំអិតភារកិច្ច </string>
+    <string name="enter_task_title">បញ្ចូលចំណងជើងភារកិច្ច </string>
+    <string name="nav_item_addtask">បន្ថែមភារកិច្ច</string>
+    <string name="nav_item_home">ទំព័រដើមទំព័រ</string>
+    <string name="nav_item_settings">ការកំណត់</string>
+    <string name="nav_item_todo">ការងារត្រូវធ្វើបញ្ជី </string>
+    <string name="notification_alert">រំលឹក: ភារកិច្ចមួយចំនួនតម្រូវឱ្យមានការយកចិត្តទុកដាក់របស់អ្នក! </string>
+    <string name="pref_category_application">កម្មវិធី</string>
+    <string name="pref_category_other">ផ្សេងទៀត</string>
+    <string name="pref_theme_title">ស្បែក</string>
+    <string name="pref_theme_value_dark">ងងឹត</string>
+    <string name="pref_theme_value_light">ពន្លឺ</string>
+    <string name="task_checked_label">បានបញ្ចប់? </string>
+    <string name="task_details_label">ពត៌មានលំអិត </string>
+    <string name="task_title">បញ្ចូលភារកិច្ច </string>
+    <string name="task_title_label">ចំណងជើងភារកិច្ច</string>
+    <string name="title_add">បន្ថែម / កែសម្រួលការងារ </string>
+    <string name="title_instructions">សេចក្តីណែនាំ </string>
+    <string name="title_settings">ការកំណត់</string>
+    <string name="title_help">ជំនួយការ, ការប្រតិបត្តិ / ការគ្រប់គ្រង</string>
+</resources>

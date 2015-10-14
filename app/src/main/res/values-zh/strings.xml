@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Tasks</string>
+    <string name="action_search">搜索</string>
+    <string name="action_settings">設置</string>
+    <string name="add_a_task">添加任務</string>
+    <string name="date_picker_title">設置完成日期</string>
+    <string name="delete_photo">刪除照片</string>
+    <string name="delete_task">刪除任務</string>
+    <string name="drawer_close">关闭</string>
+    <string name="drawer_open">打開</string>
+    <string name="enter_task_details">輸入詳細</string>
+    <string name="enter_task_title">輸入標題</string>
+    <string name="nav_item_addtask">添加任務</string>
+    <string name="nav_item_home">首頁</string>
+    <string name="nav_item_settings">設置</string>
+    <string name="nav_item_todo">待辦事項列表</string>
+    <string name="notification_alert">提醒：有些任務需要您的關注！</string>
+    <string name="pref_category_application">應用</string>
+    <string name="pref_category_other">其他</string>
+    <string name="pref_theme_title">主題</string>
+    <string name="pref_theme_value_dark">黑暗</string>
+    <string name="pref_theme_value_light">光亮</string>
+    <string name="task_checked_label">已完成？</string>
+    <string name="task_details_label">詳細信息</string>
+    <string name="task_title">輸入任務</string>
+    <string name="task_title_label">任務標題</string>
+    <string name="title_add">添加／編輯任務</string>
+    <string name="title_instructions">說明</string>
+    <string name="title_settings">設置</string>
+    <string name="title_help">幫助/支持</string>
+</resources>

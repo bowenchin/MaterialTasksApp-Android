@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Tasks</string>
+    <string name="action_search">ການຄົ້ນຫາ</string>
+    <string name="action_settings">ການຕັ້ງຄ່າ </string>
+    <string name="add_a_task">ເພີ່ມວຽກງານທີ່ໄດ້</string>
+    <string name="date_picker_title">ກໍານົດວັນທີທີ່ສໍາເລັດເປັນ: </string>
+    <string name="delete_photo">ລົບພາບ</string>
+    <string name="delete_task">ລົບວຽກ</string>
+    <string name="drawer_close">ປິດ</string>
+    <string name="drawer_open">ເປີດ</string>
+    <string name="enter_task_details">ກະລຸນາໃສ່ລາຍລະອຽດວຽກງານ </string>
+    <string name="enter_task_title">ກະລຸນາໃສ່ຊື່ຫນ້າວຽກ </string>
+    <string name="nav_item_addtask">ເພີ່ມວຽກ</string>
+    <string name="nav_item_home">ຫນ້າທໍາອິດ </string>
+    <string name="nav_item_settings">ການຕັ້ງຄ່າ</string>
+    <string name="nav_item_todo">ເພື່ອເຮັດແນວໃດຊີລາຍຊື່</string>
+    <string name="notification_alert">ການແຈ້ງເຕືອນ: ວຽກງານບາງຄົນຮຽກຮ້ອງໃຫ້ມີການເອົາໃຈໃສ່ຂອງທ່ານ! </string>
+    <string name="pref_category_application">App</string>
+    <string name="pref_category_other">ອື່ນ ໆ </string>
+    <string name="pref_theme_title">ຫົວຂໍ້</string>
+    <string name="pref_theme_value_dark">ຊ້ໍາ</string>
+    <string name="task_checked_label">ສໍາເລັດ? </string>
+    <string name="pref_theme_value_light">ແສງສະຫວ່າງ </string>
+    <string name="task_details_label">ລາຍລະອຽດ</string>
+    <string name="task_title">ກະລຸນາໃສ່ວຽກງານ </string>
+    <string name="task_title_label">ຫົວຂໍ້ວຽກງານ</string>
+    <string name="title_add">ເພີ່ມ / ແກ້ໄຂວຽກງານ </string>
+    <string name="title_instructions">ຄໍາແນະນໍາ </string>
+    <string name="title_settings">ການຕັ້ງຄ່າ</string>
+    <string name="title_help">ຊ່ວຍເຫຼືອ / ການສະຫນັບສະຫນູນ</string>
+</resources>
