@@ -1,4 +1,4 @@
-# MaterialTasksApp
+# Material Tasks Android App
 A to-do list app that is designed to be simple and elegant.
 
 [![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=com.bowenchin.android.materialtasks)
@@ -9,8 +9,11 @@ To start developing in Android Studio, group all of the files into one folder. T
 
 # Screenshots
 --------------
-<img src="SCREENSHOT/Screenshot-1.png" height="400" alt="Screenshot-1"/> 
-<img src="SCREENSHOT/Screenshot-2.png" height="400" alt="Screenshot-2"/> 
+<img src="SCREENSHOTS/LightTasks.png" height="400" alt="Screenshot"/> 
+<img src="SCREENSHOTS/LightEdit.png" height="400" alt="Screenshot"/> 
+<img src="SCREENSHOTS/DarkTasks.png" height="400" alt="Screenshot"/> 
+<img src="SCREENSHOTS/DarkEdit.png" height="400" alt="Screenshot"/>
+<img src="SCREENSHOTS/Delete.png" height="400" alt="Screenshot"/>
 
 #Acknowledgements
 --------------
