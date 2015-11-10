@@ -16,60 +16,14 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar"
         />
-        <ImageView
-            android:src="@drawable/ic_launcher"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="75dp"
-            android:layout_marginLeft="16dp"
-            android:layout_gravity="left|center_vertical" />
-
-        <TextView
-            android:text="@string/add_a_task"
-            android:textColor="?attr/themedTextColorSecondary"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:paddingTop="4dp"
-            android:paddingBottom="8dp"
-            android:gravity="center"
-            android:layout_width="188dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left|center_vertical"
-            android:layout_marginLeft="48dp"
-            android:layout_marginTop="83dp"
-            />
 
     <FrameLayout
         android:id="@+id/frame"
         android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/toolbar">
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
 
         </FrameLayout>
-
-        <!--<LinearLayout
-            android:id="@+id/toDoEmptyView"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:src="@drawable/ic_launcher"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginBottom="5dp"
-                />
-            <TextView
-                android:text="@string/add_a_task"
-                android:textColor="?attr/themedTextColorSecondary"
-                android:textSize="18sp"
-                android:paddingTop="4dp"
-                android:paddingBottom="8dp"
-                android:gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>-->
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/add_task"

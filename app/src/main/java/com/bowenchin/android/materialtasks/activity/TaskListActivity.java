@@ -24,6 +24,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 
 import com.bowenchin.android.materialtasks.R;
 import com.bowenchin.android.materialtasks.model.Task;
@@ -162,10 +163,6 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
                 fragment = new TaskListFragment();
                 fm.beginTransaction().add(R.id.frame,fragment).commit();
             }
-
-            /*FrameLayout fr = (FrameLayout)findViewById(R.id.frame);
-            int height = fr.getLayoutParams().height;
-            int width = fr.getLayoutParams().width;*/
 
             //Check if app is launch on first time. If yes, display dialogue help box
             if (isFirstTime()) {

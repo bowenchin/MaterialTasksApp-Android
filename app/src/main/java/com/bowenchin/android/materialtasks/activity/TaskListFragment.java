@@ -27,6 +27,7 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -82,6 +83,7 @@ public class TaskListFragment extends ListFragment {
         mTasks= TaskLab.get(getActivity()).getTasks();
         TaskAdapter adapter = new TaskAdapter(mTasks);
         setListAdapter(adapter);
+
     }
 
     @Override
@@ -105,6 +107,7 @@ public class TaskListFragment extends ListFragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         ((TaskAdapter)getListAdapter()).notifyDataSetChanged();
+
     }
 
     private class TaskAdapter extends ArrayAdapter<Task>{
@@ -190,11 +193,14 @@ public class TaskListFragment extends ListFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater,ViewGroup parent, Bundle savedInstanceState){
-        View v = super.onCreateView(inflater, parent, savedInstanceState);
+        /*View v = super.onCreateView(inflater, parent, savedInstanceState);
         ListView listView = (ListView)v.findViewById(android.R.id.list);
-        //listView.setEmptyView(v.findViewById(android.R.id.empty));
+        listView.setEmptyView(v.findViewById(android.R.id.empty));*/
 
+        View v = inflater.inflate(R.layout.fragment_empty_list, parent, false);
+        ListView listView = (ListView)v.findViewById(android.R.id.list);
         listView.setEmptyView(v.findViewById(android.R.id.empty));
+
 
         final SwipeToDismissTouchListener<ListViewAdapter> touchListener =
                 new SwipeToDismissTouchListener<>(

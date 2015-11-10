@@ -5,20 +5,6 @@
     android:drawSelectorOnTop="true"
     >
 
-    <!--<CheckBox
-        android:id="@+id/task_list_item_solvedCheckBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:enabled="false"
-        android:focusable="false"
-        android:padding="2dp"
-        android:layout_marginLeft="16dp"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />-->
-
-
     <TextView
         android:id="@+id/task_list_item_titleTextView"
         android:layout_width="match_parent"
@@ -72,9 +58,6 @@
         android:paddingTop="1dp"
         android:textColor="@color/orange200"
         />
-        <!--android:textColor="?attr/themedTextColorSecondary"-->
-
-
 
     <View
         android:layout_width="fill_parent"

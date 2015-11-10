@@ -352,7 +352,9 @@ public class TaskFragment extends Fragment {
     @Override
     public void onPause(){
         super.onPause();
-        scheduleClient.setAlarmForNotification(calendar);
+        if(calendar!=null) {
+            scheduleClient.setAlarmForNotification(calendar);
+        }
         TaskLab.get(getActivity()).saveTasks();
     }
 
