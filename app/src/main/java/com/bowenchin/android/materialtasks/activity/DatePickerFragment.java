@@ -57,12 +57,6 @@ public class DatePickerFragment extends DialogFragment {
     public Dialog onCreateDialog(Bundle savedInstanceState){
         mDate = (Date)getArguments().getSerializable(EXTRA_DATE);
 
-        //***Notification control moved to "TaskFragment"***
-
-        /*// Create a new service client and bind our activity to this service
-        scheduleClient = new ScheduleClient(getActivity());
-        scheduleClient.doBindService();*/
-
         //Create a Calendar to get year, month, and day
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(mDate);
@@ -102,12 +96,6 @@ public class DatePickerFragment extends DialogFragment {
 
     @Override
     public void onStop() {
-        /*// When our activity is stopped ensure we also stop the connection to the service
-        // this stops us leaking our activity into the system *bad*
-        if(scheduleClient != null) {
-            scheduleClient.doUnbindService();
-        }*/
-
         super.onStop();
     }
 }

@@ -185,6 +185,7 @@ public class TaskCameraFragment extends Fragment {
     @Override
     public void onResume(){
         super.onResume();
+
             mCamera = Camera.open(0);
             //set camera to continually auto-focus
             Camera.Parameters params = mCamera.getParameters();

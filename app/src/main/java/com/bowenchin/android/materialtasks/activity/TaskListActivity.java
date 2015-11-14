@@ -30,17 +30,25 @@ import com.bowenchin.android.materialtasks.R;
 import com.bowenchin.android.materialtasks.model.Task;
 import com.bowenchin.android.materialtasks.model.TaskJSONSerializer;
 import com.bowenchin.android.materialtasks.model.TaskLab;
+import com.github.fabtransitionactivity.SheetLayout;
 
 import java.util.ArrayList;
+
+import butterknife.Bind;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  * Created by bowenchin on 21/7/2015.
  */
-public class TaskListActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener, TaskListFragment.Callbacks, TaskFragment.Callbacks {
+public class TaskListActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener, TaskListFragment.Callbacks, TaskFragment.Callbacks, SheetLayout.OnFabAnimationEndListener  {
         private FloatingActionButton FAB;
 
+        @Bind(R.id.bottom_sheet) SheetLayout mSheetLayout;
+        @Bind(R.id.add_task) FloatingActionButton mFab;
+        private static final int REQUEST_CODE = 1;
 
-        private static String TAG = MainActivity.class.getSimpleName();
+    private static String TAG = MainActivity.class.getSimpleName();
 
         private Toolbar mToolbar;
         private FragmentDrawer drawerFragment;
@@ -86,12 +94,37 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
             listFragment.updateUI();
         }
 
+        @OnClick(R.id.add_task)
+        void onFabClick() {
+            mSheetLayout.expandFab();
+        }
+
+        @Override
+        public void onFabAnimationEnd() {
+            Log.i(TAG, "FAB clicked");
+            Task task = new Task();
+            TaskLab.get(getApplicationContext()).addTask(task);
+            Intent i = new Intent(getApplicationContext(), TaskView.class);
+            i.putExtra(TaskFragment.EXTRA_TASK_ID, task.getId());
+            startActivityForResult(i, 0);
+            startActivityForResult(i, REQUEST_CODE);
+        }
+
+        @Override
+        public void onActivityResult(int requestCode, int resultCode, Intent data) {
+            super.onActivityResult(requestCode, resultCode, data);
+            if (requestCode == REQUEST_CODE) {
+                mSheetLayout.contractFab();
+            }
+        }
+
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             Preferences.applyTheme(this);
             super.onCreate(savedInstanceState);
             //setContentView(R.layout.fragment_list);
             setContentView(getLayoutResId());
+            ButterKnife.bind(this);
 
             // Initializing Toolbar and setting it as the actionbar
             toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -172,15 +205,13 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
                 startActivity(intent);
             }
 
-            /*emptyView = (LinearLayout)findViewById(R.id.toDoEmptyView);
-            emptyView.setVisibility(View.INVISIBLE);
-            if(height<=0){
-                emptyView.setVisibility(View.VISIBLE);
-            }*/
-
             //FloatingActionButton fab = (FloatingActionButton)findViewById(R.id.add_task);
+
+            mSheetLayout.setFab(mFab);
+            mSheetLayout.setFabAnimationEndListener(this);
+
             FAB = (FloatingActionButton) findViewById(R.id.add_task);
-            FAB.setOnClickListener(new View.OnClickListener() {
+            /*FAB.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Log.i(TAG, "FAB clicked");
@@ -190,7 +221,7 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
                     i.putExtra(TaskFragment.EXTRA_TASK_ID, task.getId());
                     startActivityForResult(i, 0);
                 }
-            });
+            });*/
         }
 
     private boolean isFirstTime()

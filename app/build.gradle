@@ -8,13 +8,23 @@ android {
         applicationId "com.bowenchin.android.materialtasks"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 13
+        versionCode 14
         versionName "1.0.5"
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    repositories {
+        maven {
+            url "https://jitpack.io"
         }
     }
 }
@@ -28,4 +38,9 @@ dependencies {
     compile 'com.wdullaer:materialdatetimepicker:1.4.2'
     compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
     compile 'com.hudomju:swipe-to-dismiss-undo:1.0'
+    compile 'com.github.coyarzun89:fabtransitionactivity:0.1.0'
+    compile ('com.github.ozodrukh:CircularReveal:1.1.1@aar') {
+        transitive = true;
+    }
+    compile 'com.jakewharton:butterknife:7.0.1'
 }

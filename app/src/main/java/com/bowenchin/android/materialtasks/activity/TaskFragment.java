@@ -201,14 +201,23 @@ public class TaskFragment extends Fragment {
             }
         });*/
 
-        mPhotoButton = (ImageButton) rootView.findViewById(R.id.task_imageButton);
-        mPhotoButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getActivity(),TaskCameraActivity.class);
-                startActivityForResult(i,REQUEST_PHOTO);
-            }
-        });
+        int currentapiVersion = android.os.Build.VERSION.SDK_INT;
+        if (currentapiVersion >= Build.VERSION_CODES.M){
+            // Do something for M and above versions
+            mPhotoButton = (ImageButton) rootView.findViewById(R.id.task_imageButton);
+            mPhotoButton.setVisibility(View.INVISIBLE);
+        } else{
+            // do something for phones running an SDK before or on lollipop
+            mPhotoButton = (ImageButton) rootView.findViewById(R.id.task_imageButton);
+            mPhotoButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent i = new Intent(getActivity(),TaskCameraActivity.class);
+                    startActivityForResult(i,REQUEST_PHOTO);
+                }
+            });
+        }
+
 
         mPhotoView = (ImageView)rootView.findViewById(R.id.header);
         registerForContextMenu(mPhotoView);
