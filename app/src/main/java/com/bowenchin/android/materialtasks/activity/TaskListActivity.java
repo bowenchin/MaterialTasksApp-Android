@@ -44,8 +44,8 @@ import butterknife.OnClick;
 public class TaskListActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener, TaskListFragment.Callbacks, TaskFragment.Callbacks, SheetLayout.OnFabAnimationEndListener  {
         private FloatingActionButton FAB;
 
-        @Bind(R.id.bottom_sheet) SheetLayout mSheetLayout;
-        @Bind(R.id.add_task) FloatingActionButton mFab;
+        //@Bind(R.id.bottom_sheet) SheetLayout mSheetLayout;
+        //@Bind(R.id.add_task) FloatingActionButton mFab;
         private static final int REQUEST_CODE = 1;
 
     private static String TAG = MainActivity.class.getSimpleName();
@@ -94,10 +94,10 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
             listFragment.updateUI();
         }
 
-        @OnClick(R.id.add_task)
+        /*@OnClick(R.id.add_task)
         void onFabClick() {
             mSheetLayout.expandFab();
-        }
+        }*/
 
         @Override
         public void onFabAnimationEnd() {
@@ -113,9 +113,9 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
         @Override
         public void onActivityResult(int requestCode, int resultCode, Intent data) {
             super.onActivityResult(requestCode, resultCode, data);
-            if (requestCode == REQUEST_CODE) {
+            /*if (requestCode == REQUEST_CODE) {
                 mSheetLayout.contractFab();
-            }
+            }*/
         }
 
         @Override
@@ -124,7 +124,7 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
             super.onCreate(savedInstanceState);
             //setContentView(R.layout.fragment_list);
             setContentView(getLayoutResId());
-            ButterKnife.bind(this);
+            //ButterKnife.bind(this);
 
             // Initializing Toolbar and setting it as the actionbar
             toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -207,11 +207,11 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
 
             //FloatingActionButton fab = (FloatingActionButton)findViewById(R.id.add_task);
 
-            mSheetLayout.setFab(mFab);
-            mSheetLayout.setFabAnimationEndListener(this);
+            //mSheetLayout.setFab(mFab);
+            //mSheetLayout.setFabAnimationEndListener(this);
 
             FAB = (FloatingActionButton) findViewById(R.id.add_task);
-            /*FAB.setOnClickListener(new View.OnClickListener() {
+            FAB.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Log.i(TAG, "FAB clicked");
@@ -221,7 +221,7 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
                     i.putExtra(TaskFragment.EXTRA_TASK_ID, task.getId());
                     startActivityForResult(i, 0);
                 }
-            });*/
+            });
         }
 
     private boolean isFirstTime()
@@ -248,7 +248,7 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
     protected void onPause(){
         super.onPause();
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.add_task);
-        fab.setVisibility(View.GONE);
+        //fab.setVisibility(View.GONE);
     }
 
     @Override

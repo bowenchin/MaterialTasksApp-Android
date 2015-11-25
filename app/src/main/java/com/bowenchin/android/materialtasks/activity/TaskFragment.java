@@ -23,6 +23,8 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -100,14 +102,15 @@ public class TaskFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_task_tall, container, false);
+        final View rootView = inflater.inflate(R.layout.fragment_task_tall, container, false);
+
 
         //Set FAB of first activity to invisible
         FloatingActionButton fab2 = (FloatingActionButton)getActivity().findViewById(R.id.add_task);
         fab2.setVisibility(View.GONE);
 
         //Set check FAB to invisible first
-        FloatingActionButton doneEdit = (FloatingActionButton) rootView.findViewById(R.id.done_edit);
+        final FloatingActionButton doneEdit = (FloatingActionButton) rootView.findViewById(R.id.done_edit);
         doneEdit.setVisibility(View.VISIBLE);
 
         mTitleField = (EditText)rootView.findViewById(R.id.task_title);

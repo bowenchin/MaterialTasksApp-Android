@@ -1,18 +1,17 @@
 package com.bowenchin.android.materialtasks.activity;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.ListFragment;
 import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuInflater;
-import android.view.MotionEvent;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
@@ -23,13 +22,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 
 import com.amulyakhare.textdrawable.TextDrawable;
@@ -40,10 +36,7 @@ import com.bowenchin.android.materialtasks.model.TaskLab;
 import com.hudomju.swipe.SwipeToDismissTouchListener;
 import com.hudomju.swipe.adapter.ListViewAdapter;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
-import java.util.UUID;
 
 /**
  * Created by bowenchin on 21/7/2015.
@@ -201,6 +194,8 @@ public class TaskListFragment extends ListFragment {
         ListView listView = (ListView)v.findViewById(android.R.id.list);
         listView.setEmptyView(v.findViewById(android.R.id.empty));
 
+        Animation animation = AnimationUtils.loadAnimation(getActivity(), R.anim.animate_list_out);
+        v.startAnimation(animation);
 
         final SwipeToDismissTouchListener<ListViewAdapter> touchListener =
                 new SwipeToDismissTouchListener<>(

@@ -2,10 +2,10 @@ package com.bowenchin.android.materialtasks.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.ViewGroup;
 
 import com.bowenchin.android.materialtasks.R;
 import com.bowenchin.android.materialtasks.model.Task;
@@ -36,6 +36,9 @@ public class TaskView extends AppCompatActivity implements TaskFragment.Callback
     public void onCreate(Bundle savedInstanceState) {
         Preferences.applyTheme(this);
         super.onCreate(savedInstanceState);
+
+        //overridePendingTransition(R.anim.activity_in_corner, R.anim.activity_in_corner);
+
         setContentView(R.layout.activity_main);
         //setContentView(getLayoutResource());
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -51,5 +54,9 @@ public class TaskView extends AppCompatActivity implements TaskFragment.Callback
             fragment = createFragment();
             manager.beginTransaction().add(R.id.fragment_container, fragment).commit();
         }
+        final ViewGroup viewGroup = (ViewGroup) ((ViewGroup) this
+                .findViewById(android.R.id.content)).getChildAt(0);
+        //Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.activity_in_corner);
+        //viewGroup.startAnimation(animation);
     }
 }
