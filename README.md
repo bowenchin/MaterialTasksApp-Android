@@ -1,7 +1,7 @@
 # Material Tasks Android App
 A to-do list app that is designed to be simple and elegant.
 
-[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=com.bowenchin.android.materialtasks)
+[![Get it on Google Play](https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png)](https://play.google.com/store/apps/details?id=com.bowenchin.android.materialtasks)
 
 # Getting Started
 --------------
