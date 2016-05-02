@@ -29,14 +29,6 @@ public class TaskLab {
             mTasks = new ArrayList<Task>();
             Log.e(TAG,"ERROR loading tasks: ", e);
         }
-
-        //FOR TESTING PURPOSES: Generate random tasks
-        /*for(int i = 1; i<=5;i++){
-            Task t = new Task();
-            t.setTitle("Task " + i);
-            t.setChecked(i%2==1);
-            mTasks.add(t);
-        }*/
     }
 
     public static TaskLab get(Context c){

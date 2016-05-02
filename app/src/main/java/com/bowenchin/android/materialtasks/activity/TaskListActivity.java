@@ -94,11 +94,6 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
             listFragment.updateUI();
         }
 
-        /*@OnClick(R.id.add_task)
-        void onFabClick() {
-            mSheetLayout.expandFab();
-        }*/
-
         @Override
         public void onFabAnimationEnd() {
             Log.i(TAG, "FAB clicked");
@@ -204,11 +199,6 @@ public class TaskListActivity extends AppCompatActivity implements FragmentDrawe
                 Intent intent = new Intent(this, WalkThroughActivity.class); //call your ViewPager class
                 startActivity(intent);
             }
-
-            //FloatingActionButton fab = (FloatingActionButton)findViewById(R.id.add_task);
-
-            //mSheetLayout.setFab(mFab);
-            //mSheetLayout.setFabAnimationEndListener(this);
 
             FAB = (FloatingActionButton) findViewById(R.id.add_task);
             FAB.setOnClickListener(new View.OnClickListener() {

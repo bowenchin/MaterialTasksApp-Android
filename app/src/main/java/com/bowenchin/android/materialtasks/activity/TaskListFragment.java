@@ -194,9 +194,6 @@ public class TaskListFragment extends ListFragment {
         ListView listView = (ListView)v.findViewById(android.R.id.list);
         listView.setEmptyView(v.findViewById(android.R.id.empty));
 
-        Animation animation = AnimationUtils.loadAnimation(getActivity(), R.anim.animate_list_out);
-        v.startAnimation(animation);
-
         final SwipeToDismissTouchListener<ListViewAdapter> touchListener =
                 new SwipeToDismissTouchListener<>(
                         new ListViewAdapter(listView),
